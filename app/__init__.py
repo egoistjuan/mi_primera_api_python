@@ -8,7 +8,6 @@ def crear_app():
     app = Flask(__name__)
     api = Api(app)
 
-    #Comentario cualquiera!
     routes = APIRoutes()
     routes.init_routes(api)
 
